@@ -54,7 +54,7 @@
  */
 #define FUNC_AUDIO_CODEC_EN       (1)
 #define AUXIN_DETECT_GPIO         GPIO_NUM_12
-#define HEADPHONE_DETECT          GPIO_NUM_19
+#define HEADPHONE_DETECT          GPIO_NUM_39
 #define PA_ENABLE_GPIO            GPIO_NUM_21
 #define CODEC_ADC_I2S_PORT        ((i2s_port_t)0)
 #define CODEC_ADC_BITS_PER_SAMPLE ((i2s_data_bit_width_t)16) /* 16bit */
@@ -87,7 +87,7 @@ extern audio_hal_func_t AUDIO_CODEC_ES8388_DEFAULT_HANDLE;
 #define FUNC_BUTTON_EN            (1)
 #define INPUT_KEY_NUM             6
 #define BUTTON_REC_ID             GPIO_NUM_36
-#define BUTTON_MODE_ID            GPIO_NUM_39
+#define BUTTON_MODE_ID            GPIO_NUM_13
 #define BUTTON_SET_ID             TOUCH_PAD_NUM9
 #define BUTTON_PLAY_ID            TOUCH_PAD_NUM8
 #define BUTTON_VOLUP_ID           TOUCH_PAD_NUM7
